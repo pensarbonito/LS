@@ -31,7 +31,9 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  background-color: rgba(151, 71, 255, 1);
+  fill: rgba(151, 71, 255, 1);
+  border: none;
+  outline: none;
 }
 
 .rectangle-4-3 {
@@ -94,20 +96,29 @@ img {
   color: var(--text-black);
 }
 
-.desktop-home-1 {
+.homee-1 {
 @media (max-width: 1440px) {
-  .desktop-home-1 {
+  .homee-1 {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
 @media (max-width: 768px) {
-  .desktop-home-1 {
+  .homee-1 {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 1280px;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
