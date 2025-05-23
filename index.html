@@ -1,439 +1,1188 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="boy-responsive">
-      <div class="my-testimonial">
-        <div class="container">
-          <div class="logo">
-            <div class="group-wrapper"><div class="group"></div></div>
-            <div class="text-wrapper">Personal</div>
-          </div>
-          <img class="material-symbols" src="img/material-symbols-menu.svg" />
-        </div>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Sorda</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+</head>
+<body>
+  <!-- Navegación -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo" onclick="abrirPopup('popups')">
+        <img src="assets/fplsd-cara2-24.svg" alt="La Sorda" />
+        <h3>LA SORDA</h3>
       </div>
-      <div class="container-wrapper">
-        <div class="div">
-          <div class="column">
-            <div class="frame">
-              <div class="overlap-wrapper">
-                <div class="overlap">
-                  <div class="group-2">
-                    <img class="img" src="img/group-1000015732.png" />
-                    <div class="overlap-group">
-                      <img class="vector" src="img/vector-29129.svg" />
-                      <img class="vector-2" src="img/vector-29132.svg" />
-                      <img class="vector-3" src="img/vector-29134.svg" />
-                      <img class="vector-4" src="img/vector-29131.svg" />
-                      <img class="vector-5" src="img/vector-29130.svg" />
-                    </div>
-                    <img class="vector-6" src="img/vector-29133.svg" />
-                  </div>
-                  <div class="rectangle"></div>
-                  <div class="overlap-group-wrapper">
-                    <div class="overlap-2">
-                      <div class="div-wrapper">
-                        <div class="overlap-group-2">
-                          <img class="vector-7" src="img/vector-29037.svg" />
-                          <img class="group-3" src="img/group-1000015725.png" />
-                          <img class="vector-8" src="img/vector-29039.svg" />
-                          <img class="vector-9" src="img/vector-29038.svg" />
-                        </div>
-                      </div>
-                      <img class="vector-10" src="img/vector-29031.svg" />
-                      <img class="vector-11" src="img/vector-29034.svg" />
-                      <img class="vector-12" src="img/vector-29035.svg" />
-                    </div>
-                  </div>
-                  <div class="group-4">
-                    <div class="overlap-3">
-                      <div class="group-5">
-                        <div class="overlap-group-3">
-                          <img class="vector-13" src="img/vector-29053.svg" />
-                          <img class="vector-14" src="img/vector-29054.svg" />
-                          <img class="group-6" src="img/group-1000015742.png" />
-                        </div>
-                      </div>
-                      <img class="vector-15" src="img/vector-29093.svg" />
-                      <img class="vector-16" src="img/vector-29094.svg" />
-                      <img class="vector-17" src="img/vector-29095.svg" />
-                    </div>
-                  </div>
-                  <div class="group-7">
-                    <div class="overlap-4">
-                      <img class="vector-18" src="img/vector-29018.svg" />
-                      <img class="vector-19" src="img/vector-29020.svg" />
-                      <img class="vector-20" src="img/vector-29019.svg" />
-                      <div class="ellipse"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column-2">
-            <div class="div-2">
-              <div class="frame-2">
-                <div class="text-wrapper-2">Hello I’am</div>
-                <div class="text-wrapper-3">Evren Shah.</div>
-              </div>
-              <div class="frame-2">
-                <div class="text-wrapper-3">Frontend</div>
-                <div class="text-wrapper-4">Developer</div>
-              </div>
-              <div class="frame-2">
-                <div class="text-wrapper-2">Based In</div>
-                <div class="text-wrapper-3">India.</div>
-              </div>
-            </div>
-            <p class="p">
-              I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to specimen book.
-            </p>
-            <div class="frame-3">
-              <div class="button"><div class="social-icon"></div></div>
-              <div class="social-icon-wrapper"><div class="social-icon-2"></div></div>
-              <div class="social-icon-wrapper"><div class="social-icon-3"></div></div>
-              <div class="button-2"><div class="social-icon-4"></div></div>
-            </div>
-          </div>
-        </div>
+      <a href="https://www.instagram.com/publicaciones_lasorda/" target="_blank">
+        <img src="assets/icons8-instagram.svg" alt="Instagram La Sorda" />
+      </a>
+      <!--
+      <div style="font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 48;">
+        <div class="tooltip"><span class="material-symbols-outlined">menu_book</span><span class="tooltiptext">Proyectos editoriales<br>La Sorda suelta libros para que viajen ligeros, de mano en mano, sin mapas ni prisas.</span></div>
+        <div class="tooltip"><span class="material-symbols-outlined">web_traffic</span><span class="tooltiptext">Proyectos web<br>La Sorda abre caminos digitales: páginas para perderse, encontrarse y compartir.</span></div>
+        <div class="tooltip"><span class="material-symbols-outlined">deployed_code</span><span class="tooltiptext">Proyectos expositivos<br>La Sorda levanta refugios temporales: exposiciones para mirar, habitar y recordar.</span></div>
       </div>
-      <div class="container-wrapper">
-        <div class="container-2">
-          <div class="div-3">
-            <div class="text-wrapper-2">My</div>
-            <div class="text-wrapper-3">Skills</div>
-          </div>
-          <div class="column-3">
-            <div class="frame-4">
-              <div class="skills">
-                <img class="img-2" src="img/icon-express.svg" />
-                <div class="javascript">Javascript</div>
-              </div>
-              <div class="skills">
-                <img class="img-2" src="img/icon-sass.svg" />
-                <div class="javascript">Javascript</div>
-              </div>
-            </div>
-            <div class="frame-4">
-              <div class="skills">
-                <img class="img-2" src="img/icon-javscript.svg" />
-                <div class="javascript">Javascript</div>
-              </div>
-              <div class="skills-2">
-                <img class="img-2" src="img/icon-typescript.svg" />
-                <div class="javascript-2">Javascript</div>
-              </div>
-            </div>
-            <div class="frame-4">
-              <div class="skills">
-                <img class="img-2" src="img/icon-socket.svg" />
-                <div class="javascript">Javascript</div>
-              </div>
-              <div class="skills">
-                <img class="img-2" src="img/icon-storybook.svg" />
-                <div class="javascript">Javascript</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-wrapper-2">
-        <div class="container-2">
-          <div class="div-3">
-            <div class="text-wrapper-5">My</div>
-            <div class="text-wrapper-6">Experience</div>
-          </div>
-          <div class="column-3">
-            <div class="experience">
-              <div class="frame-5">
-                <div class="frame-6">
-                  <img class="img-3" src="img/google.svg" />
-                  <p class="lead-software">Lead Software Engineer At Google</p>
-                </div>
-                <div class="text-wrapper-7">Nov 2019 - Present</div>
-              </div>
-              <p class="as-a-senior-software">
-                As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for
-                Google&#39;s core search algorithms. Collaborating with a dynamic team of engineers, I contributed to
-                the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users
-                worldwide.
-              </p>
-            </div>
-            <div class="experience-2">
-              <div class="frame-5">
-                <div class="frame-6">
-                  <img class="img-3" src="img/youtube.svg" />
-                  <div class="lead-software">Software Engineer At Youtube</div>
-                </div>
-                <p class="text-wrapper-7">Jan 2017 - Oct 2019</p>
-              </div>
-              <p class="as-a-senior-software">
-                At Youtube, I served as a&nbsp;&nbsp;Software Engineer, focusing on the design and implementation of
-                backend systems for the social media giant&#39;s dynamic platform. Working on projects that involved
-                large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless
-                functionality and scalability.
-              </p>
-            </div>
-            <div class="experience">
-              <div class="frame-5">
-                <div class="frame-6">
-                  <img class="img-3" src="img/apple.svg" />
-                  <p class="lead-software">Junior Software Engineer At Apple</p>
-                </div>
-                <p class="text-wrapper-7">Jan 2016 - Dec 2017</p>
-              </div>
-              <p class="as-a-senior-software">
-                During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping
-                the architecture of mission-critical software projects. Responsible for designing scalable and efficient
-                systems, I provided technical leadership to a cross-functional team.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-wrapper">
-        <div class="container-2">
-          <div class="column-4">
-            <div class="group-8">
-              <div class="overlap-5">
-                <img class="vector-21" src="img/vector-2.svg" />
-                <img class="group-9" src="img/group-11.png" />
-                <img class="vector-22" src="img/vector.svg" />
-                <div class="img-wrapper"><img class="group-10" src="img/group-9.png" /></div>
-                <div class="group-11"><img class="group-12" src="img/group-13.png" /></div>
-                <div class="group-13">
-                  <div class="overlap-group-4">
-                    <img class="vector-23" src="img/vector-13.svg" /> <img class="group-14" src="img/group-7.png" />
-                  </div>
-                </div>
-                <div class="group-15"><img class="group-16" src="img/image.png" /></div>
-                <div class="group-17">
-                  <div class="overlap-6">
-                    <div class="vector-wrapper"><img class="vector-24" src="img/image.svg" /></div>
-                    <div class="group-18">
-                      <div class="overlap-7">
-                        <img class="group-19" src="img/group-6.png" />
-                        <div class="group-20">
-                          <img class="group-21" src="img/group-4.png" />
-                          <div class="overlap-group-5">
-                            <img class="group-22" src="img/group-8.png" />
-                            <img class="vector-25" src="img/vector-10.svg" />
-                            <div class="group-23"></div>
-                          </div>
-                          <img class="vector-26" src="img/vector-7.svg" />
-                          <img class="vector-27" src="img/vector-4.svg" />
-                        </div>
-                        <div class="group-24">
-                          <div class="overlap-8">
-                            <img class="vector-28" src="img/vector-11.svg" />
-                            <img class="group-25" src="img/group-2.png" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <img class="group-26" src="img/group-3.png" />
-                <img class="group-27" src="img/group-12.png" />
-              </div>
-            </div>
-          </div>
-          <div class="column-5">
-            <div class="text-wrapper-2">About</div>
-            <div class="text-wrapper-3">Me</div>
-          </div>
-          <div class="column-6">
-            <p class="i-m-a-passionate">
-              I&#39;m a passionate, self-proclaimed designer who specializes in full stack development (React.js &amp;
-              Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to
-              life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters
-              to me.
-            </p>
-            <p class="p">
-              I began my journey as a web developer in 2015, and since then, I&#39;ve continued to grow and evolve as a
-              developer, taking on new challenges and learning the latest technologies along the way. Now, in my early
-              thirties, 7 years after starting my web development journey, I&#39;m building cutting-edge web
-              applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much
-              more.
-            </p>
-            <p class="p">
-              When I&#39;m not in full-on developer mode, you can find me hovering around on twitter or on indie hacker,
-              witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I
-              share tech-related bites and build in public, or you can follow me on GitHub.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container-wrapper-2">
-        <div class="container-2">
-          <div class="div-3">
-            <div class="text-wrapper-5">My</div>
-            <div class="text-wrapper-6">Projects</div>
-          </div>
-          <div class="div-4">
-            <div class="row">
-              <div class="image"><img class="image-2" src="img/image-771-2.png" /></div>
-              <div class="div-4">
-                <div class="text-wrapper-8">01</div>
-                <div class="text-wrapper-9">Crypto Screener Application</div>
-                <p class="p">
-                  I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                  Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer
-                  took a galley of type and scrambled it to specimen book.
-                </p>
-                <img class="read-more" src="img/read-more.svg" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="image"><img class="image-2" src="img/image-771.png" /></div>
-              <div class="div-4">
-                <div class="text-wrapper-8">02</div>
-                <p class="text-wrapper-9">Euphoria - Ecommerce (apparels) Website Template</p>
-                <p class="p">
-                  I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                  Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer
-                  took a galley of type and scrambled it to specimen book. <br />when an unknown printer took a galley
-                  of type and scrambled it to specimen book.
-                </p>
-                <img class="read-more" src="img/read-more-2.svg" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="image"><img class="image-3" src="img/image-771-3.png" /></div>
-              <div class="div-4">
-                <div class="text-wrapper-8">03</div>
-                <div class="text-wrapper-9">Blog Website Template</div>
-                <p class="p">
-                  I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                  Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer
-                  took a galley of type and scrambled it to specimen book.
-                </p>
-                <img class="read-more" src="img/read-more-3.svg" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-wrapper">
-        <div class="container-3">
-          <div class="div-3">
-            <div class="text-wrapper-2">My</div>
-            <div class="text-wrapper-3">Testimonial</div>
-          </div>
-          <div class="row-2">
-            <div class="testimonial">
-              <div class="frame-7">
-                <img class="ellipse-2" src="img/ellipse-2664-3.png" />
-                <div class="frame-8">
-                  <div class="ellipse-3"></div>
-                  <img class="vector-29" src="img/vector-3.svg" />
-                </div>
-              </div>
-              <p class="text-wrapper-10">
-                I recently had to jump on 10+ different calls across eight different countries to find the right owner.
-              </p>
-              <div class="rectangle-2"></div>
-              <div class="text-wrapper-11">Evren Shah</div>
-              <div class="text-wrapper-12">Designer</div>
-            </div>
-            <div class="testimonial-2">
-              <div class="frame-7">
-                <img class="ellipse-2" src="img/ellipse-2664.png" />
-                <div class="frame-8">
-                  <div class="ellipse-4"></div>
-                  <img class="vector-29" src="img/vector-12.svg" />
-                </div>
-              </div>
-              <p class="text-wrapper-13">
-                I recently had to jump on 10+ different calls across eight different countries to find the right owner.
-              </p>
-              <div class="rectangle-3"></div>
-              <div class="evren-shah">Flora Sheen</div>
-              <div class="text-wrapper-14">Designer</div>
-            </div>
-            <div class="testimonial">
-              <div class="frame-7">
-                <img class="ellipse-2" src="img/ellipse-2664-2.png" />
-                <div class="frame-8">
-                  <div class="ellipse-3"></div>
-                  <img class="vector-29" src="img/vector-5.svg" />
-                </div>
-              </div>
-              <p class="text-wrapper-10">
-                I recently had to jump on 10+ different calls across eight different countries to find the right owner.
-              </p>
-              <div class="rectangle-2"></div>
-              <div class="text-wrapper-11">Evren Shah</div>
-              <div class="text-wrapper-12">Designer</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-wrapper">
-        <div class="container-3">
-          <div class="row-3">
-            <div class="div-2">
-              <div class="frame-9"><div class="text-wrapper-15">Your name</div></div>
-            </div>
-            <div class="div-2">
-              <div class="frame-9"><div class="text-wrapper-15">Email</div></div>
-            </div>
-            <div class="div-2">
-              <div class="frame-9"><div class="text-wrapper-15">Your website (If exists)</div></div>
-            </div>
-            <div class="div-2">
-              <div class="frame-10"><div class="text-wrapper-16">How can I help?*</div></div>
-            </div>
-            <button class="resume-wrapper"><div class="resume">Get In Touch</div></button>
-            <div class="frame-11">
-              <div class="button"><div class="social-icon-5"></div></div>
-              <div class="social-icon-wrapper"><div class="social-icon-6"></div></div>
-              <div class="social-icon-wrapper"><div class="social-icon-7"></div></div>
-              <div class="social-icon-wrapper"><div class="social-icon-8"></div></div>
-            </div>
-          </div>
-          <div class="row-4">
-            <div class="frame-12">
-              <div class="frame-2">
-                <div class="text-wrapper-3">Let’s</div>
-                <div class="text-wrapper-4">talk</div>
-                <div class="text-wrapper-3">for</div>
-              </div>
-              <div class="frame-2"><div class="text-wrapper-3">Something special</div></div>
-            </div>
-            <p class="p">
-              I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive
-              experiences.
-            </p>
-            <div class="frame-13">
-              <div class="youremail-gmail-com">Youremail@gmail.com</div>
-              <div class="text-wrapper-17">8053345267</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <footer class="footer">
-        <div class="container-4">
-          <div class="logo-wrapper">
-            <div class="logo-2">
-              <div class="logo-3"><div class="group-28"></div></div>
-              <div class="text-wrapper-18">Personal</div>
-            </div>
-          </div>
-          <div class="frame-14">
-            <div class="text-wrapper-19">@ 2019-2023 Personal</div>
-            <div class="text-wrapper-20">Made In Figma</div>
-          </div>
-        </div>
-      </footer>
+      -->
     </div>
-  </body>
+  </header>
+<!-- Galeria -->
+<section class="galeria">
+  <div class="item31" onclick="abrirPopup('popup31')"><div class="project-info"><span class="material-symbols-outlined">menu_book&thinsp;deployed_code</span>Un viaje de paz&#8230</div></div>
+  <div class="item30" onclick="abrirPopup('popup30')"><div class="project-info"><span class="material-symbols-outlined">menu_book&thinsp;deployed_code</span>Que la verdad siga&#8230</div></div>
+  <div class="item29" onclick="abrirPopup('popup29')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Des-hechos&#8230</div></div>
+  <div class="item28" onclick="abrirPopup('popup28')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Que la verdad sea&#8230</div></div>
+  <div class="item27" onclick="abrirPopup('popup27')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Variaciones&#8230</div></div>
+  <div class="item26" onclick="abrirPopup('popup26')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Carmen y Jacinto&#8230</div></div>
+  <div class="item25" onclick="abrirPopup('popup25')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Historias de verdad&#8230</div></div>
+  <div class="item24" onclick="abrirPopup('popup24')"><div class="project-info"><span class="material-symbols-outlined">web_traffic</span>Comunidad&#8230</div></div>
+  <div class="item23" onclick="abrirPopup('popup23')"><div class="project-info"><span class="material-symbols-outlined">menu_book&thinsp;web_traffic</span>Crea-lo&#8230</div></div>
+  <div class="item22" onclick="abrirPopup('popup22')"><div class="project-info"><span class="material-symbols-outlined">menu_book&thinsp;web_traffic</span>Mercado del conocimiento&#8230</div></div>
+  <div class="item21" onclick="abrirPopup('popup21')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Atacar las estatuas&#8230</div></div>
+  <div class="item20" onclick="abrirPopup('popup20')"><div class="project-info"><span class="material-symbols-outlined">web_traffic</span>Narrativas&#8230</div></div>
+  <div class="item19" onclick="abrirPopup('popup19')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Métáforas&#8230</div></div>
+  <div class="item18" onclick="abrirPopup('popup18')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Postfotografía&#8230</div></div>
+  <div class="item17" onclick="abrirPopup('popup17')"><div class="project-info"><span class="material-symbols-outlined">menu_book&thinsp;deployed_code</span>Exvotos&#8230</div></div>
+  <div class="item16" onclick="abrirPopup('popup16')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Proclamas y escritos&#8230</div></div>
+  <div class="item15" onclick="abrirPopup('popup15')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Histori(a)fuera&#8230</div></div>
+  <div class="item14" onclick="abrirPopup('popup14')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Historias optimistas&#8230</div></div>
+  <div class="item13" onclick="abrirPopup('popup13')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Ratástrofe&#8230</div></div>
+  <div class="item12" onclick="abrirPopup('popup12')"><div class="project-info"><span class="material-symbols-outlined">deployed_code</span>Cero&#8725;Zero&#8230</div></div>
+  <div class="item11" onclick="abrirPopup('popup11')"><div class="project-info"><span class="material-symbols-outlined">deployed_code&thinsp;web_traffic</span>Ciencia contable&#8230</div></div>
+  <div class="item10" onclick="abrirPopup('popup10')"><div class="project-info"><span class="material-symbols-outlined">deployed_code</span>Maestros costureros&#8230</div></div>
+  <div class="item9" onclick="abrirPopup('popup9')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Anotaciones&#8230</div></div>
+  <div class="item8" onclick="abrirPopup('popup8')"><div class="project-info"><span class="material-symbols-outlined">menu_book&thinsp;deployed_code</span>Mampuján entretejido&#8230</div></div>
+  <div class="item7" onclick="abrirPopup('popup7')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Gansitos&#8230</div></div>
+  <div class="item6" onclick="abrirPopup('popup6')"><div class="project-info"><span class="material-symbols-outlined">deployed_code</span>¿Estudias o trabajas?</div></div>
+  <div class="item5" onclick="abrirPopup('popup5')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Máquinas&#8230</div></div>
+  <div class="item4" onclick="abrirPopup('popup4')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Apuntes sobre Graffiti&#8230</div></div>
+  <div class="item3" onclick="abrirPopup('popup3')"><div class="project-info"><span class="material-symbols-outlined">menu_book&thinsp;deployed_code</span>Si los ponen a dibujar&#8230</div></div>
+  <div class="item2" onclick="abrirPopup('popup2')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>Lautréamont, Marcel&#8230</div></div>
+  <div class="item1" onclick="abrirPopup('popup1')"><div class="project-info"><span class="material-symbols-outlined">menu_book</span>La Restitución&#8230</div></div>
+</section>
+
+  <!-- LASORDA -->
+  <div id="popups" class="popup">
+    <div class="popup-content" aria-modal="true" tabindex="-1">
+      <span class="cerrar" onclick="cerrarPopup('popups')"><span class="material-symbols-outlined">close</span></span>
+      <div class="popup-grid">
+        <div class="popup-galeria">
+          <img src="assets/fplsd.svg" alt="Imagen 1">
+        </div>
+        <div class="popup-texto">
+          <h2>Fundación Publicaciones</h2><h1>La Sorda</h1>
+          <p>La Sorda es un proyecto editorial alternativo y multidisciplinar que pretende movilizar la producción de pensamiento desde amplias y generosas perspectivas de divulgación basadas en el diálogo latente entre disciplinas, autores, territorios, prácticas e ideas. El proceso editorial de La Sorda concibe los textos como una producción de sentido que no se limita a la palabra escrita. Nuestras publicaciones incluyen acciones, dibujos, formas, registros, relatos y códigos que construyen múltiples formas de enunciación. En La Sorda, hablamos con las manos.</p>
+          <p>La Sorda se aleja de valoraciones y evaluaciones, desafiando a espíritus inquietos más que a lugares de conocimiento. Se plantea la consolidación de una comunidad creativa desde varios escenarios de acción: un espacio físico para las publicaciones impresas, momentos de encuentro para la discusión, y una plataforma (publicacioneslasorda.org) que será nuestra librería y canal de comunicación.</p>
+          <p>La Sorda busca la aparición de textos clandestinos y urgentes. Se propone hacer libros avispados y dichosos. Que detonen con ruido o en silencio. Que especulen y alardeen. Fábulas sin moraleja. Que aspiren a intentar. Que sean sospechas inteligentes. Que se lean sintiendo, que se puedan morder. Que se guarden en el bolsillo de la chaqueta, el pantalón o el vestido.</p>
+          <p>Más que revisar, a La Sorda le interesa poner en circulación. Pasar los textos a limpio y ponerlos a andar. Disponerlos para el disfrute o la furia del otro. Hacer libros como un gesto político que hoy resulta a todas luces anacrónico. Un tímido acto de rebeldía.</p> 
+          <p>Sobra decir que no interesan las definiciones. Que no interesa el saber estrictamente disciplinar y especializado. Que no interesa el conocimiento lineal y acumulativo. Que la emergencia está en los márgenes. Que la discusión sobre la idea de cultura no se circunscribe a un saber determinado. Todo acto es ético y político. Es urgente pensar, por eso La Sorda quiere decir. Al oído, en voz baja, o gritando varias veces.</p>
+          <p>Sorda quiere dejar pruebas de los posibles lugares de pensamiento que emergen en el mundo actual, con las herramientas quizá más tradicionales, el libro y la colección. Lo Escrito, colección de textos resultado de procesos académicos que se alejan de lo institucional para aventurarse y circular en el mundo extremo de lo cotidiano. Lo Visto, colección de textos vertiginosos que se leen como acciones y dan cuenta de proyectos que documentan los tiempos del compartir y del actuar. Lo Dicho, colección que recopila relatos y experiencias que han tenido lugar en la conversación, en la palabra, en el juego y la oralidad.</p>
+        <p>Política de tratamiento de los datos personales</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup Proyecto 1 -->
+  <div id="popup1" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+  <span class="cerrar" onclick="cerrarPopup('popup1')">
+  <span class="material-symbols-outlined">close</span></span>
+  <div class="popup-grid">
+  <div class="popup-galeria"><img src="assets/iaps01.jpg" alt="iaps01"><img src="assets/ibps01.jpg" alt="ibps01"><img src="assets/icps01.jpg" alt="icps01"></div>
+  <div class="popup-texto">
+  <h1>La Restitución del Objeto</h1><h2>De la deconstrucción del objeto pictórico a la hiper-estetización del mundo de los objetos</h2>
+  <p>Este artículo se ocupa de la transformación del estatuto del objeto y de la obra de arte, y se desarrolla a partir de tres momentos: el primero aborda una genealogía de la representación y la belleza, que permite comprender cómo lejos del horizonte imitativo de la representación perspectiva del arte -que culminará en el Impresionismo- las vanguardias esgrimen para la práctica artística, la emancipación del mundo del objeto y en este sentido suscitan su disolución; el segundo momento expone que el Constructivismo y la Bauhaus, proponen la vuelta al objeto como la estrategia para un arte verdadero, en tanto el artista debe estar al servicio de la producción social y en el objeto se da la feliz alianza de lo bello y lo útil, por lo que se restituye el objeto al universo del arte por vía del diseño; y por último, el artículo propone que un número importante de obras de arte contemporáneo se inscribe en la noción de hiperobjeto, en tanto objetos ambiguos que intentan contrarrestar el fin del arte a partir de una saturación del objeto, resultado de constituirse en obras diseñadas, es decir, en ornamentos con la función de obra de arte.</p>
+  <table>
+  <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+  <tr><td>Autor</td><td colspan="3">Alberto Carlos Romero Moscoso</td></tr>
+  <tr><td>Perfil del autor</td><td colspan="3">Artista plástico y profesor interesado en temas de filosofía, arte y estética contemporánea.</td></tr>
+  <tr><td>Fe de erratas</td><td colspan="3">Página 48, Panofsky, Edwin. por: Panofsky, Erwin. Página 39, Nota al pie 59, postestétrico. por: post estético.</td></tr>
+  <tr><td>ISBN</td><td>978-958-46-6269-9</td><td>Edición</td><td>1</td></tr>
+  <tr><td>Publicado</td><td>2015</td><td>Páginas</td><td>52</td></tr>
+  <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>17.5x12.5 cm</td></tr>
+  <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+  <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+  <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+  </table>
+  </div>
+  </div>
+  </div>
+  </div>
+
+<!-- Popup Proyecto 2 -->
+<div id="popup2" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup2')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps02.jpg" alt="iaps02">
+        <img src="assets/ibps02.jpg" alt="ibps02">
+        <img src="assets/icps03.jpg" alt="icps03">
+      </div>
+      <div class="popup-texto">
+        <h1>Lautréamont, Marcel Duchamp et James Joyce, hors la loi du beau</h1>
+        <h2>Lautréamont, Marcel Duchamp y James Joyce, fuera de la ley de lo bello</h2>
+        <p>¿Qué crear ahora? Esta es la pregunta que aborda este artículo analizando el acercamiento de tres grandes poetas y artistas de los siglos XIX y XX a través de una especie de “encuentro casual” entre el Conde de Lautréamont, Marcel Duchamp y James Joyce, un encuentro fértil entre estos tres seres que se liberaron de las leyes tradicionales de la belleza clásica para abrir la belleza a infinitas posibilidades.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Jérôme Izérable.</td></tr>
+          <tr><td>Traducción</td><td colspan="3">María Camila Peña Echeverry</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Jérôme Izérable. Tras estudiar historia del arte en la Sorbona y la Escuela del Louvre, Jérôme Izérable realizó un máster en Estética en la Universidad de París I para completar su formación con un enfoque más teórico del arte, en línea con su gusto por la escritura y la filosofía.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-46-6066-4</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2015</td><td>Páginas</td><td>116</td></tr>
+          <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>17.5x12.5cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español / Francés</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 3 -->
+<div id="popup3" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup3')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps03.jpg" alt="iaps03">
+        <img src="assets/ibps03.jpg" alt="ibps03">
+        <img src="assets/icps03.jpg" alt="icps03">
+      </div>
+      <div class="popup-texto">
+        <h1>Si los ponen a dibujar algo en el colegio, </h1>
+        <h2>hagan un paisaje con una casa; desde esa casa ustedes pueden pintar de todo: ventanas, tejas, ladrillos, la chimenea, el humo, las cortinas...</h2>
+        <p>El dibujo es un ejercicio de la mirada, de la distancia, de la proximidad. En lo dibujado se evidencia una determinada cercanía con las cosas y sus maneras de aparecer. Verificamos y borramos nuestros trazos, porque nuestros gestos buscan incesantemente su forma y lugares para existir. El dibujo es una elección y una necesidad, puede ser un acto instintivo, un conjunto de gestos que preparan minuciosamente una obra a venir, o una obra terminada. Como todo arte, el dibujo es una expresión de su época y una huella de las preguntas que nos atañen en un espacio-tiempo determinado. El dibujo ahora permite entrever esa dimensión de lo humano que va más allá del dialogo entre el pensamiento y la mano. Una sombra, una mancha, un tejido, pasos sobre el suelo, pueden y hacen parte de esta práctica que desdibuja sus límites y amplía sus lugares de exploración. La Sorda apuesta hoy por el trabajo que acaban de ver en estas páginas. La expresión momentánea de una necesidad y una búsqueda constante que es prueba de que sea cual sea el gesto, el material, o el espacio de creación, dibujamos y hemos dibujado desde siempre, no porque vemos, sino porque queremos ver.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Esteban Camilo Marroquín Amador</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Artista, vive en Bogotá. Actualmente centra su trabajo en estructuras imaginarias que trae a luz por medio del dibujo y demás medios plásticos.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-46-7322-0</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2015</td><td>Páginas</td><td>70</td></tr>
+          <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>21x21cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+          <tr><td>Titulo de exposición</td><td colspan="3">Si los ponen a dibujar algo en el colegio, hagan un paisaje con una casa...</td></tr>
+          <tr><td>Fecha</td><td>mayo 26 a 31 de 2016</td><td>Lugar</td><td>LA galería</td></tr>
+          <tr><td>Descripción</td><td colspan="3">La exposición Si los ponen a dibujar algo en el colegio, hagan un paisaje con una casa… de Esteban Camilo Marroquín Amador es una invitación a adentrarse en el universo de las estructuras imaginarias que el artista ha concebido a través del dibujo y otros medios plásticos. La muestra reúne los dibujos originales que forman parte del libro homónimo, en los cuales Marroquín Amador materializa arquitecturas ficticias, escenarios oníricos y construcciones que desafían la lógica espacial convencional. Con un trazo detallado y una sensibilidad única para la composición, el artista explora la relación entre la memoria, la fantasía y la manera en que concebimos los espacios. Sus imágenes evocan paisajes que podrían pertenecer tanto a una infancia compartida como a un territorio mental donde lo real y lo imaginario se entrelazan. A través de esta exposición, el público tiene la oportunidad de acercarse al proceso creativo detrás del libro, donde cada dibujo no solo es una pieza autónoma, sino también una parte de un entramado más amplio de exploraciones visuales. La muestra no solo presenta la obra finalizada, sino que también permite vislumbrar el tránsito entre la idea y la materialización gráfica de estos mundos inventados. De esta manera, Si los ponen a dibujar algo en el colegio, hagan un paisaje con una casa… se convierte en un espacio de diálogo entre la enseñanza tradicional del dibujo, la imaginación individual y las posibilidades expresivas del arte contemporáneo.</td></tr>
+          <tr><td>Tipo de exposición</td><td>temporal</td><td>Área</td><td>90 m2</td></tr>
+          <tr><td>Curaduria</td><td colspan="3">Maria Camila Peña Echeverry, Alberto Carlos Romero Moscoso, Carlos Alberto González Buitrago</td></tr>
+          <tr><td>Producción y museografía</td><td colspan="3">Fundación Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 4 -->
+<div id="popup4" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup4')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps04.jpg" alt="iaps04">
+        <img src="assets/ibps04.jpg" alt="ibps04">
+        <img src="assets/icps04.jpg" alt="icps04">
+      </div>
+      <div class="popup-texto">
+        <h1>Apuntes sobre Graffiti en Bogotá: la ciudad que falla</h1>
+        <h2>Tripido: historia, construcción de verdad y violencia</h2>
+        <p>El presente texto reúne dos aproximaciones al graffiti en Bogotá. Por una parte retoma un diálogo entre {-} y Stinkfish titulado: Apuntes sobre Graffiti en Bogotá: la ciudad que falla, con la intención de situar la práctica del graffiti al margen de los medios, los intermediarios, las instituciones y la legislación en las calles de Bogotá. Por otra parte, Sebastián Vargas Álvarez retoma a partir de una crónica investigativa titulada: Tripido: historia, construcción de verdad y violencia, el caso de la confusa muerte de un grafitero que conmocionó a Bogotá, por los dudosos manejos de las pruebas y el esclarecimiento de los hechos por parte de la Policía Nacional.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autores</td><td colspan="3">Stinkfish. Vargas Álvarez, Sebastián.</td></tr>
+          <tr><td>Perfil de los autores</td><td colspan="3">Stinkfish. Graffitero y documentalista de prácticas urbanas ilegales e independientes. Sebastián Vargas Álvarez. Historiador, profesor e investigador bogotano.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Página 56, línea 7, además de de los. por: además de los.</td></tr>
+          <tr><td>ISBN</td><td>978-958-46-6893-6</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2015</td><td>Páginas</td><td>52</td></tr>
+          <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>17.5x12.5cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 5 -->
+<div id="popup5" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup5')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps05.jpg" alt="iaps05">
+        <img src="assets/ibps05.jpg" alt="ibps05">
+        <img src="assets/icps05.jpg" alt="icps05">
+      </div>
+      <div class="popup-texto">
+        <h1>Máquinas de la Duración</h1>
+        <p>Al ser finita, esta escritura excluye la infinita cualidad del tiempo, la temporalidad, cualidad que se da como modo del ser en la experiencia. Esta alfabética escritura, merodea el fuera de sí de la obra de arte, en nuestro caso llamada: “Máquinas de la Duración”. Intenta narrar el espacio recorrido de su proceso de creación, aunque no pueda ser el movimiento mismo de la experiencia. Esta escritura surge como señal física de un texto y aspira al relato del ser sin poder ser. Conoce, pero no es lo que conoce, no es el tiempo de la experiencia en la obra; ese tiempo a través de la imagen, que es el auténtico tiempo.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Mario Opazo</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Artista plástico de origen chileno, profesor asociado de la Universidad Nacional de Colombia. Su obra se funda especialmente en la preocupación sobre el TIEMPO y en nuestra inscripción en este a partir de la experiencia sensible. Trabaja con diversos medios y lenguajes entre ellos los audiovisuales, performativos y literarios. Su obra ha sido expuesta y difundida a nivel internacional en escenarios como: la Bienal internacional de arte de Venecia, la Bienal de la Habana y Mercosur. En espacios como el Centro Georges Pompidou, Museo Nacional Centro de Arte Reina Sofía, Matadero Madrid entre otros.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-46-9470-6</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2016</td><td>Páginas</td><td>170</td></tr>
+          <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>21x21cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 6 -->
+<div id="popup6" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup6')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps06.jpg" alt="iaps06">
+        <img src="assets/ibps06.jpg" alt="ibps06">
+        <img src="assets/icps06.jpg" alt="icps06">
+      </div>
+      <div class="popup-texto">
+        <h1>¿Estudias o trabajas?</h1>
+        <p>¿Estudias o trabajas? Es una exposición temporal que invita a conocer la vida de un grupo de hombres jóvenes: aquellos que estudian y trabajan en Bogotá. El proyecto presenta su cotidianidad, sus expectativas, sus masculinidades y sus amores. La exposición complementa la investigación “Experiencias amorosas en jóvenes que estudian y trabajan en la ciudad de Bogotá: un estudio exploratorio”, proyecto ganador de la VI convocatoria interna de la Vicerrectoría de Investigaciones de la Universidad El Bosque.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Fecha</td><td colspan="3">20 a 30 de septiembre de 2016</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Sala de exposiciones. Universidad El Bosque</td></tr>
+          <tr><td>Aliado</td><td colspan="3">Programa de Psicología, Universidad El Bosque</td></tr>
+          <tr><td>Tipo de exposición</td><td>temporal</td><td>Área</td><td>40 m2</td></tr>
+          <tr><td>Cordinación general</td><td colspan="3">Natalia Córdoba Flechas, Investigadora principal: Grupo de investigación: Psicología Social, Organizacional y Criminológica. Facultad de Psicología. Universidad El Bosque.</td></tr>
+          <tr><td colspan="2">Co investigadora</td><td colspan="2">Pilar Baracaldo Silva</td></tr>
+          <tr><td colspan="2">Curaduría y museografía</td><td colspan="2">Sonia Peñarette y Carlos González</td></tr>
+          <tr><td colspan="2">Producción general</td><td colspan="2">Publicaciones La Sorda</td></tr>
+          <tr><td colspan="2">Equipo de producción</td><td colspan="2">Josemaría Castillo, Carreta Estudio, Incdecals</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 7 -->
+<div id="popup7" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup7')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps07.jpg" alt="iaps07">
+        <img src="assets/ibps07.jpg" alt="ibps07">
+        <img src="assets/icps07.jpg" alt="icps07">
+      </div>
+      <div class="popup-texto">
+        <h1>Gansitos</h1>
+        <p>Gansitos es un conjunto de poemas -ruidosos, molestos, sencillos, sabrosos…- generados, cada uno, en diversas “eternas y distraídas pisadas” dentro de barrios, vías, pastos, puentes y paradores de la Bogotá del siglo XXI. Es la necesidad del autor por escupir visiones sobre la ciudad, sus memorias y cotidianidad. Un coexistir entre el individuo y la ciudad; la creación artística y los espacios urbanos.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Felipe González Méndez</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Escritor independiente interesado en historias y temáticas bogotanas.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-46-8511-7</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2016</td><td>Páginas</td><td>74</td></tr>
+          <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>13.5x10.5 cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Popup Proyecto 8 -->
+<div id="popup8" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup8')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps08.jpg" alt="iaps08">
+        <img src="assets/ibps08.jpg" alt="ibps08">
+        <img src="assets/icps08.jpg" alt="icps08">
+      </div>
+      <div class="popup-texto">
+        <h1>Mampuján entretejido,</h1>
+        <h2>un camino estético para la paz</h2>
+        <p>Mampuján entretejido es una exposición que narra, a través de once telas, la historia de mujeres afro y campesinas que, en medio de la exclusión y la guerra, cosieron figuras que reflejan la violencia en los Montes de María, Mampuján y San Cayetano. La muestra conecta la masacre en Montes de María, la historia de África y la vida del Cimarrón tras el sufrimiento de la esclavitud. Las tejedoras de Mampuján, junto a los dibujos de Rafael Posso, la fotografía de Juan Manuel Echavarría, y las imágenes de Gabriel Ossa, transforman el dolor en arte. La Fundación Puntos de Encuentro conserva y difunde estos tejidos, mientras que la academia destaca el poder de la estética para acercar lo marginado y transformar lo simbólico en un camino hacia la paz.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Fecha</td><td colspan="3">Septiembre 29 a noviembre 30 de 2016</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Sala de exposiciones biblioteca Universidad Externado de Colombia</td></tr>
+          <tr><td>Aliado</td><td colspan="3">Fundación Puntos de Encuentro, Grupo de investigación Derechos culturales: derecho, arte y cultura, Universidad Externado de Colombia</td></tr>
+          <tr><td>Tipo de exposición</td><td>temporal</td><td>Área</td><td>70 m2</td></tr>
+          <tr><td>Cordinación general</td><td colspan="3">Yolanda Sierra León. Departamento de Derecho Constitucional Grupo de Derechos culturales: derecho, arte y cultura.</td></tr>
+          <tr><td>Curaduría</td><td colspan="3">María Eugenia Trujillo, María Antonia Zabala Sandoval, Carmen Ibáñez, Nayibe Peña Ortega Las Cleopatras del barrio Egipto, Departamento de Derecho Constitucional.</td></tr>
+          <tr><td>Museografía</td><td colspan="3">William Gamboa Sierra, Carlos Alberto González. Facultad de Estudios de Patrimonio Cultural. Programa de Museología.</td></tr>
+          <tr><td colspan="2">Producción general y diseño editorial</td><td colspan="2">Carol Contreras y Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 9 -->
+<div id="popup9" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup9')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps09.jpg" alt="iaps09">
+        <img src="assets/ibps09.jpg" alt="ibps09">
+        <img src="assets/icps09.jpg" alt="icps09">
+      </div>
+      <div class="popup-texto">
+        <h1>Anotaciones a la libertad II.</h1>
+        <h2>Derribando muros</h2>
+        <p>Anotaciones a la Libertad II: derribando muros, es la segunda entrega del libro escrito por los internos de La Picota en el marco del proyecto “Tertulia literaria, educación para la paz y los derechos humanos”. Este libro recoge los escritos construidos a lo largo del desarrollo de dicho proyecto cuyo hilo conductor se refleja de manera fiel en cada escrito: resaltar la dignidad como valor supremo de la persona. Esta segunda versión de Anotaciones a la Libertad contó con la contribución de 32 internos de la estructura 1 de la cárcel La Picota quienes participaron con escritos propios o hicieron parte de la galería fotográfica del libro. Este proyecto estuvo vigente durante el 2018 y fue desarrollado por el Centro de Investigación en Política Criminal de la Universidad Externado, junto a la Cruz Roja Colombiana seccional Bogotá-Cundinamarca, la Fundación Fahrenheit 451 y la Fundación Pazósfera.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Editores</td><td colspan="3">Gutiérrez Quevedo, Marcela. Fernández Granados, Sergio David. Fierro Aponte, Angélica. Villamarín Mor, Valentina. Muñoz Barrios, Juan Sebastián. Muñoz Cortés, Jenny Rocío.</td></tr>
+          <tr><td colspan="2">Coordinación editorial</td><td colspan="2">Contreras Suárez, Carol.</td></tr>
+          <tr><td colspan="2">Corrector de estilo</td><td colspan="2">Gama Torres, Sergio.</td></tr>
+          <tr><td>Edición</td><td>1</td><td>Páginas</td><td>120</td></tr>
+          <tr><td>ISBN</td><td></td><td>Publicado</td><td>2017</td></tr>
+          <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>21.5x14.0cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 10 -->
+<div id="popup10" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup10')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps10.jpg" alt="iaps10">
+        <img src="assets/ibps10.jpg" alt="ibps10">
+        <img src="assets/icps10.jpg" alt="icps10">
+      </div>
+      <div class="popup-texto">
+        <h1>Maestros costureros, hacia el lujo artesanal</h1>
+        <h2>el vestido indígena como símbolo de resistencia</h2>
+        <p>Esta muestra tiene como objetivo visibilizar la sabiduría de los pueblos indígenas y fomentar la recuperación de los símbolos ancestrales de diversas comunidades del país. La exposición se conecta con diferentes iniciativas que, desde el ámbito público, cuestionan la identidad multicultural de Colombia, así como sus formas de creación, transmisión, conservación y protección. A partir de la ‘historización’ sociológica del lujo, analizada por el filósofo francés Gilles Lipovetsky, "Maestros costureros" resalta el valor simbólico y sagrado del vestido indígena.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliado</td><td colspan="3">Programa de Mercadeo y comunicación de la moda, LCI Bogotá (escuela de diseño)</td></tr>
+          <tr><td>Fecha</td><td colspan="3">14 de febrero a 17 de marzo de 2017</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Sala de exposiciones Biblioteca Universidad Externado de Colombia</td></tr>
+          <tr><td>Tipo de exposición</td><td>temporal</td><td>Área</td><td>70 m2</td></tr>
+          <tr><td colspan="2">Cordinación general</td><td colspan="2">Carol Contreras</td></tr>
+          <tr><td colspan="2">Curaduría</td><td colspan="2">Sandra Merchán</td></tr>
+          <tr><td colspan="2">Museografía</td><td colspan="2">Carlos Alberto González</td></tr>
+          <tr><td colspan="2">Producción general</td><td colspan="2">Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 11 -->
+<div id="popup11" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup11')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps11.jpg" alt="iaps11">
+        <img src="assets/ibps11.jpg" alt="ibps11">
+        <img src="assets/icps11.jpg" alt="icps11">
+      </div>
+      <div class="popup-texto">
+        <h1>Museo de la ciencia contable en Colombia</h1>
+        <p>Este proyecto expositivo complementa la tesis doctoral titulada «Museo contable como mediación pedagógica. Una propuesta cultural para Colombia». La exposición tiene como objetivo crear un ambiente educativo que fortalezca los procesos investigativos en las facultades de contaduría pública a nivel nacional, promoviendo la visualización y construcción de un futuro que involucre a las diferentes generaciones que han marcado la historia de este campo en Colombia.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliado</td><td colspan="3">Facultad de Contaduría Pública, Universidad Externado de Colombia</td></tr>
+          <tr><td>Fecha</td><td colspan="3">Noviembre 15 a diciembre 15 de 2019</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Sala de exposiciones biblioteca Universidad Externado de Colombia</td></tr>
+          <tr><td>Tipo de exposición</td><td>temporal</td><td>Área</td><td>50 m2</td></tr>
+          <tr><td>Curaduría</td><td colspan="3">María Elena Escobar Ávila</td></tr>
+          <tr><td>Museografía</td><td colspan="3">Carlos Alberto González Buitrago</td></tr>
+          <tr><td>Producción y carácter gráfico</td><td colspan="3">Fundación Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 12 -->
+<div id="popup12" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup12')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps12.jpg" alt="iaps12">
+        <img src="assets/ibps12.jpg" alt="ibps12">
+        <img src="assets/icps12.jpg" alt="icps12">
+      </div>
+      <div class="popup-texto">
+        <h1>Cero / Zero</h1>
+        <h2>Fotografía de Robert Pennington</h2>
+        <p>Las imágenes, capturadas por el fotógrafo estadounidense Robert Pennington, forman parte de un proyecto que ha recorrido el mundo con el objetivo de visibilizar la problemática social del desplazamiento a través de la fotografía. El artista ha explicado brevemente cómo surgió el título y el concepto de su exposición: "El origen del título Cero/Zero proviene de muchos, si no de la mayoría, de los desplazados que conocí y entrevisté: se 'sienten' como estrato cero... Aprendí de ellos una y otra vez que sus sentimientos también existen y, en muchos casos, derivan de su experiencia de desplazamiento."</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliado</td><td colspan="3">Cátedra Unesco “Derechos Humanos y violencia: gobierno y gobernanza” Universidad Externado de Colombia</td></tr>
+          <tr><td>Fecha</td><td colspan="3">marzo 23 a abril 28 de 2017</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Sala de exposiciones Biblioteca Universidad Externado de Colombia</td></tr>
+          <tr><td>Tipo de exposición</td><td>temporal</td><td>Área</td><td>50 m2</td></tr>
+          <tr><td colspan="2">Cordinación general</td><td colspan="2">Carol Contreras</td></tr>
+          <tr><td colspan="2">Curaduría</td><td colspan="2">Robert Pennington</td></tr>
+          <tr><td colspan="2">Museografía</td><td colspan="2">Carlos Alberto González</td></tr>
+          <tr><td colspan="2">Producción general</td><td colspan="2">Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 13 -->
+<div id="popup13" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup13')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps13.jpg" alt="iaps13">
+        <img src="assets/ibps13.jpg" alt="ibps13">
+        <img src="assets/icps13.jpg" alt="icps13">
+      </div>
+      <div class="popup-texto">
+        <h1>Ratástrofe</h1>
+        <p>Esta ciudad desordenada, sucia, pero interesante sufre de varias enfermedades y nosotros como habitantes somos los causantes, aceptamos la copia, no nos adaptamos ni aceptamos el cambio, entonces es así como nos hemos acostumbrado a vivir como ratas, buscamos comida, solucionamos problemas inmediatos sin pensar más allá, no construimos ciudad y no desarrollamos las ideas que surgen, nos volvemos estáticos y no participamos en nada porque damos todo por hecho, entonces si somos ratas es hora de que nos levantemos de las cuatro patas, dejar de mirar al piso comiendo callados, ¡Formemos una ratástrofe! que no solo sea critica, propongamos desde el arte, la creación, el conocimiento y la experiencia, únete a esta plaga para sobrevivir a la vida inconsciente, frustrada y desordenada tus ideas valen más que pensamientos silenciosos en las mentes que critican, contágiate de esta realidad y ayúdanos a construir la historia de una rata que armó la revolución y logró progresar, si conoces los medios para apagar llamas y encender medios, compártelos, grítalos y escucha.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Ana María Vargas, María Triana, Anggie Velásquez, Julián José Velandia</td></tr>
+          <tr><td>Perfil de los autores</td><td colspan="3">Somos una comunidad que busca convertirse en una verdadera plaga, no planeamos vender verdades sino construirlas. Únete si te cansaste de consumir critica, atrévete a sacarle una radiografía a la publicidad y conviértete en un retocador de anuncios. La ciudad publicitaria necesita de una ratástrofe “Aveces no se puede ver nada en la superficie, pero por debajo de ella todo está que arde”. Y. B.Mangunwijaya</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-3-4</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2017</td><td>Páginas</td><td>36</td></tr>
+          <tr><td>Tiraje</td><td>300 ejemplares</td><td>Tamaño</td><td>14x22cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 14 -->
+<div id="popup14" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup14')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps14.jpg" alt="iaps14">
+        <img src="assets/ibps14.jpg" alt="ibps14">
+        <img src="assets/icps14.jpg" alt="icps14">
+      </div>
+      <div class="popup-texto">
+        <h1>Historias optimistas sobre personas con muy mala suerte. </h1>
+        <h2>Echemos Vaina.</h2>
+        <p>Las historias que leerá a continuación, afortunado o infortunado lector, fueron oídas clandestinamente y escritas con minuciosidad por sus autores. El modus operandi de los cronistas consistió en abrir sus porosidades y permitir que el folclor humano (envejecido y enorme) los penetrara. Cada nueva historia sobre el denuedo de seres invisibles para hacer frente a la mala suerte, siempre con guiños a caer derrotados, era atrapada por los escritores en sus momentos de asueto, cuando alguno de ellos se sometía a la depilación inglesa con cera (de una o dos ingles) o en sus devaneos por los sanatorios más conocidos de cuanta ciudad visitaron.</p>
+        <p>Este libro se escribió a cuatro manos, o mejor dicho, se escribió con una mano diestra y otra siniestra. La diestra pertenece a Nimodo Tesuda, cuya esposa también era diestra, pero en el arte de detectar olores femeninos en sus camisas. La siniestra, en cambio, corresponde a Valiente Grazia Kestrugen, de quien se dice que su primera esposa era zurda, como él, pero sobre todo siniestra.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Nimodo Tesuda, Valiente Grazia Kestrugen</td></tr>
+          <tr><td>Perfil de los autores</td><td colspan="3">Nimodo Tesuda. Entomólogo colombo-japonés de la especie humana, habla cinco lenguas distintas, sobre todo cuando se enfada, escribe sus artículos en kanji y luego los traduce al castellano. Valiente Grazia Kestrugen. Afamado odontoagricultor alemán, escribió una novela epistolar y dos libros de páginas amarillas, y tras ser declarado enfermo incurable, fue puesto al cuidado de una ebanista quien vio madera en él.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-4-1</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2017</td><td>Páginas</td><td>172</td></tr>
+          <tr><td>Tiraje</td><td>300 ejemplares</td><td>Tamaño</td><td>13.5x10.5cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 15 -->
+<div id="popup15" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup15')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps15.jpg" alt="iaps15">
+        <img src="assets/ibps15.jpg" alt="ibps15">
+        <img src="assets/icps15.jpg" alt="icps15">
+      </div>
+      <div class="popup-texto">
+        <h1>Histori(a)fuera:</h1>
+        <h2>Políticas de la memoria y usos públicos de la historia</h2>
+        <p>¿Qué es Histori(a)fuera? Los ensayos reunidos en este libro abordan las complejas intersecciones entre memoria, historia, política y espacio público a partir de casos de estudio atravesados por una reflexión teórica implícita y constante. Se trata de investigaciones que desde una perspectiva transdisciplinar exploran contextos concretos (cuatro en México, uno en Cuba) en donde se articulan espacio, representación del pasado y artefactos culturales/dispositivos de memoria que despliegan o activan diversos usos públicos de la historia. De esta manera, el libro rastrea e historiza diversos discursos, apropiaciones y disputas en torno a monumentos, sitios arqueológicos, avenidas y sistemas de señalética en redes de transporte urbano.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Desentis Torres, Cristina. Fernández Damas, Mario Norberto. Gutiérrez Galindo, Blanca. Riobó Rodríguez, Juan Camilo. Vargas Álvarez, Sebastián.</td></tr>
+          <tr><td>Perfil de los autores</td><td colspan="3">Cristina Desentis Torres. Arqueóloga. Universidad de las Américas (Cholula, Puebla); Mario Norberto Fernández Damas. Formación en psicología, psicoanálisis y estudios culturales. Independiente (Querétaro); Blanca Gutiérrez Galindo. Historiadora del Arte. Universidad Nacional Autónoma de México (Ciudad de México); Juan Camilo Riobó. Historiador. Universidad de Guanajuato (León, Guanajuato); Sebastián Vargas Álvarez. Historiador. Universidad del Rosario (Bogotá).</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Contraportada, públi- co, por: público. Contraportada, reexión, por: reflexión, im- plícita, por: implícita, arqueo- lógicos, por: arqueológicos.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-1-0</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2017</td><td>Páginas</td><td>234</td></tr>
+          <tr><td>Tiraje</td><td>300 ejemplares</td><td>Tamaño</td><td>22.5x15cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 16 -->
+<div id="popup16" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup16')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps16.jpg" alt="iaps16">
+        <img src="assets/ibps16.jpg" alt="ibps16">
+        <img src="assets/icps16.jpg" alt="icps16">
+      </div>
+      <div class="popup-texto">
+        <h1>Lado A: PCLA(r). Manifiestos y Comunicados del Post Colonial Liberation Army(rematerialización).</h1>
+        <h2>Lado B: Escritos Ecuánimes.</h2>
+        <p>PCLA(r) es una serie de escritos en los que se articulan ideas centrales a un trabajo que opera desde el lenguaje de la representación y que tiende a aludir y revisar sistemas de categorías y asuntos identitarios. Entre estos asuntos se incluyen la identidad del propio artista, de sus textos y aún la eventual identidad del lector. Escritos Ecuánimes es una serie de cuentos cortos, evocadores y sinceros.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Carlos Capelán</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Capelán pertenece a eso que ha sido llamado ”artistas postconceptuales” que trabajan con estructuras de ideas insistiendo siempre en la diversidad formal de sus propuestas. Capelán ha participado, entre otras, en las bienales de Kwang-ju (Corea), Johannesburg (África del Sur), Site Santa Fe (USA), Auckland (Nueva Zelanda), Sao Paulo y MERCOSUR (Brasil), Bienal de Fotografía de Berlín (Alemania), Bienal del Barro (Venezuela), Bienal de Arte Paiz (Guatemala), Bienal de Venecia (Italia). Ha obtenido el premio de la III Bienal de la Habana, la Beca Guggenheim y el Premio Nacional en Uruguay, entre otras distinciones. Profesor en la Academia del Arte de Bergen (Noruega 2000-2006). Han escrito sobre su trabajo, entre otros: Gerardo Mosquera, Thomas McEveilley, Paulo Herkenhof, Ticio Escobar, Virginia Pérez-Ratton, Gabriel Peluffo, Carla Stellweg, Catherine David, Fernando Castro Florez, Sune Nordgren, Jonathan Friedman, Nikos Papastergiadis, Octavio Zaya, y Gavin Jantjes entre otros.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-0-3</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2017</td><td>Páginas</td><td>85</td></tr>
+          <tr><td>Tiraje</td><td>300 ejemplares</td><td>Tamaño</td><td>21 x 21cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 17 -->
+<div id="popup17" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup17')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps17.jpg" alt="iaps17">
+        <img src="assets/ibps17.jpg" alt="ibps17">
+        <img src="assets/icps17.jpg" alt="icps17">
+      </div>
+      <div class="popup-texto">
+        <h1>Exvotos</h1>
+        <h2>María Eugenia Trujillo y Las Cleopatras del Egipto de Bogotá</h2>
+        <p>La muestra reflexiona sobre cómo el arte y la estética contribuyen a la prevención de hechos violentos mediante procesos culturales y artísticos, y propone analizar los derechos de las mujeres, así como los factores de exclusión y marginalidad. Esto se logra a través de las obras de María Eugenia Trujillo y las creaciones colectivas del grupo Las Cleopatras del Barrio Egipto de Bogotá. La exposición forma parte de las XVIII Jornadas de Derecho Constitucional, enfocadas en el "Constitucionalismo Transicional en la implementación de los Acuerdos de Paz".</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliado</td><td colspan="3">Grupo de investigación Derechos culturales: derecho, arte y cultura, Universidad Externado de Colombia</td></tr>
+          <tr><td>Fecha</td><td colspan="3">19 de septiembre de 2017 a 19 de febrero de 2018</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Sala de exposiciones Biblioteca Universidad Externado de Colombia</td></tr>
+          <tr><td>Tipo de exposición</td><td>temporal</td><td>Área</td><td>70 m2</td></tr>
+          <tr><td>Cordinación general</td><td colspan="3">Yolanda Sierra León. Departamento de Derecho Constitucional Grupo de Derechos culturales: derecho, arte y cultura</td></tr>
+          <tr><td>Curaduría</td><td colspan="3">Departamento de Derecho Constitucional, Biblioteca - línea de lectura, escritura y arte, Facultad de Estudios de Patrimonio Cultural, Proyecto de Archivo Histórico y Fundación Puntos de Encuentro</td></tr>
+          <tr><td>Museografía</td><td colspan="3">William Gamboa Sierra, Carlos Alberto González. Facultad de Estudios de Patrimonio Cultural. Programa de Museología</td></tr>
+          <tr><td colspan="2">Producción general y diseño editorial</td><td colspan="2">Carol Contreras y Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 18 -->
+<div id="popup18" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup18')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps18.jpg" alt="iaps18">
+        <img src="assets/ibps18.jpg" alt="ibps18">
+        <img src="assets/icps18.jpg" alt="icps18">
+      </div>
+      <div class="popup-texto">
+        <h1>Postfotografía e imágenes faltantes</h1>
+        <p>Edificantes palabras que señalan un camino entre el marasmo de las imágenes y que apelan a una ética postfotográfica de la visión: cuando la ocultación o la destrucción de las imágenes puede entenderse como una forma extrema de fascinación –toda iconoclastia en el fondo implica veneración– la búsqueda de la imagen prevalece sobre la imagen misma. Es sobre estos derroteros intelectuales que discurre con convicción el trabajo del activismo postfotográfico.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Joan Fontcuberta</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Artista, docente, ensayista, crítico y promotor de arte español especializado en fotografía.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-5-8</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2018</td><td>Páginas</td><td>70</td></tr>
+          <tr><td>Tiraje</td><td>500 ejemplares</td><td>Tamaño</td><td>11.5x16cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 19 -->
+<div id="popup19" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup19')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps19.jpg" alt="iaps19">
+        <img src="assets/ibps19.jpg" alt="ibps19">
+        <img src="assets/icps19.jpg" alt="icps19">
+      </div>
+      <div class="popup-texto">
+        <h1>Metáforas</h1>
+        <p>En las páginas que vienen a continuación solo pretendo compartir mis lecturas realizadas a lo largo de varios años. Son lecturas escogidas por la hermandad de la nostalgia y la sensibilidad, y por la obsesión de encontrar en cada página la esencia del ser humano envuelta en las sutiles correspondencias que va tejiendo la literatura a lo largo de los siglos.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Francisco Moncada Peña</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Francisco Moncada Peña, hijo de la meridiana Bogotá y lector apasionado. Especialista en estudios literarios. Profesor de literatura por gusto y humanista de oficio en varias universidades bogotanas a lo largo de varias décadas. Cree ciegamente que las únicas limitaciones que tiene la literatura son aquellas que le ofrece el lector en su ejercicio de imaginación. También cree que la literatura, junto con la música, es el alma, la consciencia y la memoria de un pueblo que aspira a la eternidad. En la década del 2000 publicó “PALABRA ABIERTA” para la editorial Oxford University Press.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-6-5</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2019</td><td>Páginas</td><td>113</td></tr>
+          <tr><td>Tiraje</td><td>200 ejemplares</td><td>Tamaño</td><td>12.5x17.5cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa dura</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td colspan="4"><a href="">Descargar</a></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 20 -->
+<div id="popup20" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup20')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps20.jpg" alt="iaps20">
+        <img src="assets/ibps20.jpg" alt="ibps20">
+        <img src="assets/icps20.jpg" alt="icps20">
+      </div>
+      <div class="popup-texto">
+        <h1>Narrativas de excombatientes de organizaciones insurgentes y autodefensas</h1>
+        <p>Una iniciativa para La Comisión para el Esclarecimiento de la Verdad, la Convivencia y la No Repetición realizada por ABC Paz y el Centro Internacional para la Justicia Transicional - ICTJ.</p>
+        <p>El relato de la guerra, de sus causas, de las vicisitudes que subyacen a las travesías y los combates, han sido contadas por académicos y cronistas que, en una vasta literatura; alguna muy fundada y rigurosa y otra un tanto especulativa, han reconstruido los hechos de nuestro conflicto armado no exentos de interpretaciones y subjetividades.</p>
+        <p>El trabajo que presentamos a continuación es la primera sistematización, en una plataforma web, de las voces de los protagonistas, enemigos muchos de ellos, que interactuaron por primera vez a través de la palabra y no del fusil. Debates álgidos que en la mayoría de los casos no pretendían ni terminaban en un consenso, ese ha sido el principal valor de estas conversaciones, que sin pretender ponerse de acuerdo lograron elaborar reflexiones compartidas sobre el conflicto armado y su papel individual y colectivo en este.</p>
+        <p>Este ejercicio, denominado Narrativas de Excombatientes, es una aproximación experiencial a los contextos explicativos de la guerra en Colombia a partir de seis ejes temáticos:</p>
+        <ul>
+          <li>Ideología y relaciones internacionales</li>
+          <li>Control territorial y colonización armada</li>
+          <li>Economías de guerra</li>
+          <li>Impactos de la guerra</li>
+          <li>Factores de persistencia</li>
+          <li>Procesos de negociación</li>
+        </ul>
+        <p>Las organizaciones que han participado en los diferentes momentos de este proceso, ABC Paz, el ICTJ y, por supuesto, La Comisión de la Verdad, han querido ofrecer estos testimonios al público en general para que dicha aproximación sea directa y constituya un insumo más para quienes están interesados en comprender las causas, dinámicas y roles de quienes participaron de la confrontación armada y, al tiempo, las coyunturas, criterios y debates que asumieron para deponer las armas, negociar la paz y reincorporarse a la vida civil.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliados</td><td colspan="3">Fundación Mapa Teatro; Comisión para el Esclarecimiento de la Verdad, la Convivencia y la No repetición (CEV); Centro Internacional para la Justicia Transicional (ICTJ); ABC Paz</td></tr>
+          <tr><td>URL</td><td colspan="3"><a href="https://especiales.comisiondelaverdad.co/narrativadeexcombatientes/" target="_blank">Narrativas de Excombatientes</a></td></tr>
+          <tr><td>Fecha</td><td colspan="3">2020</td></tr>
+          <tr><td>Lenguajes</td><td colspan="3">HTML, CSS, JavaScript</td></tr>
+          <tr><td colspan="2">Diseño, usabilidad y accesibilidad, carácter gráfico, navegabilidad y experiencia de usuario</td><td colspan="2">Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 21 -->
+<div id="popup21" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup21')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps21.jpg" alt="iaps21">
+        <img src="assets/ibps21.jpg" alt="ibps21">
+        <img src="assets/icps21.jpg" alt="icps21">
+      </div>
+      <div class="popup-texto">
+        <h1>Atacar las estatuas.</h1>
+        <h2>Vandalismo y protesta social en América Latina</h2>
+        <p>Entre 2019 y 2020 se registraron, en diferentes partes del mundo, ataques contra monumentos conmemorativos en medio de protestas contra la violencia policial, el sistema capitalista, el racismo, el colonialismo y el genocidio de diversos grupos humanos. Partiendo de este contexto amplio, este ensayo reflexiona sobre las relaciones entre vandalismo y protesta social en América Latina a través del análisis de tres casos de estudio en México, Chile y Colombia. De igual manera, busca establecer los alcances y limitaciones de este tipo de acciones, así como proponer algunas alternativas desde la historia pública y el arte contemporáneo.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Sebastián Vargas Álvarez</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Historiador. Universidad del Rosario.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-7-2</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2021</td><td>Páginas</td><td>160</td></tr>
+          <tr><td>Tiraje</td><td>300 ejemplares</td><td>Tamaño</td><td>21.5x12.5cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 22 -->
+<div id="popup22" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup22')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps22.jpg" alt="iaps22">
+        <img src="assets/ibps22.jpg" alt="ibps22">
+        <img src="assets/icps22.jpg" alt="icps22">
+      </div>
+      <div class="popup-texto">
+        <h1>Mercado del Conocimiento y No-Conocimiento Útil. </h1>
+        <h2>Licencia # 10</h2>
+        <p>A contracorriente de las inequidades. Bogando por el presente hacia (otros) futuros posibles Mercado del Conocimiento y No-Conocimiento Útil. Licencia # 10. Un proyecto artístico para la Comisión de la Verdad, de la Academia Móvil de Berlín, adaptado y realizado por Mapa Teatro en cooperación con el Goethe-Institut. Financiado por el Ministerio de Relaciones Exteriores de la República Federal de Alemania y el Goethe-Institut.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliados</td><td colspan="3">Fundación Mapa Teatro; Comisión para el Esclarecimiento de la Verdad, la Convivencia y la No repetición (CEV)</td></tr>
+          <tr><td>Lenguajes</td><td colspan="3">HTML, CSS, JavaScript</td></tr>
+          <tr><td colspan="2">Diseño, usabilidad y accesibilidad, Carácter gráfico, navegabilidad, experiencia de usuario y diseño adaptable a diferentes dispositivos</td><td colspan="2">Publicaciones La Sorda</td></tr>
+          <tr><td colspan="4">Editorial</td></tr>
+          <tr><td colspan="2">Diseño e impresión programa booklet</td><td colspan="2">1 x 23,4 cm, Páginas interiores 16, Papel Earthpact 90g. 4x4 tintas, Cubierta Earthpact 150g. 4x4 tintas, 500 ejemplares</td></tr>
+          <tr><td colspan="2">Diseño e impresión programa con horarios y plano</td><td colspan="2">48 x 28 cm, Plegable a dos cuerpos, Aralda 120g, 4x4 tintas, 500 ejemplares</td></tr>
+          <tr><td colspan="2">Diseño e impresión postales</td><td colspan="2">15 x 10 cm, Aralda 240g 4x0 tintas, 500 ejemplares</td></tr>
+          <tr><td colspan="2">Diseño e impresión escarapelas</td><td colspan="2">9 x 6 cm, Aralda 240g 2x0 tintas, 330 ejemplares</td></tr>
+          <tr><td colspan="2">Diseño señalética</td><td colspan="2">Numeración mesas, Aviso checking expertos, Aviso checking asistentes, Aviso ágora</td></tr>
+          
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 23 -->
+<div id="popup23" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup23')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps23.jpg" alt="iaps23">
+        <img src="assets/ibps23.jpg" alt="ibps23">
+        <img src="assets/icps23.jpg" alt="icps23">
+      </div>
+      <div class="popup-texto">
+        <h1>Crea-lo. Otros mundos posibles en la UN</h1>
+        <h2>Universidad Nacional de Colombia, Área de Cultura y Bienestar Universitario</h2>
+        <p>Crea-lo es un proyecto del Área de Cultura de Bienestar Universitario de la UNAL–Sede Bogotá, que fomenta la reflexión y creación de múltiples prácticas desde lo interdisciplinar y lo micropolítico, promoviendo el hacer cultural desde lo sensible, las emociones y las afectividades e invitando a la emergencia de lo recíproco, la corresponsabilidad y la no instrumentalización de la cultura a través de miradas interdisciplinarias.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliado</td><td colspan="3">Universidad Nacional de Colombia, Área de Cultura y Bienestar Universitario</td></tr>
+          <tr><td>URL</td><td colspan="3"><a href="https://crealoun.vercel.app/" target="_blank">Crea-lo</a></td></tr>
+          <tr><td colspan="4">Editorial 2023–2025</td></tr>
+          <tr><td colspan="2">Caja contenedora</td><td colspan="2">Tintas: 4x0, Tamaño abierta: 33,3 x 24,9 cm; armada: 17,7 x 12,8 cm, Papel: propalcote mate de 300 grs., Plastificado mate, Acabados: troquelado armado y pegado, Cantidad: 450 ejemplares</td></tr>
+          <tr><td colspan="2">Calendiario</td><td colspan="2">Tintas: 4x4, Páginas totales: 48, Tamaño: 105 x 140 mm, Papel: Earth Pact de 90 grs., Cantidad: 450 ejemplares</td></tr>
+          <tr><td colspan="2">Juego de cartas</td><td colspan="2">Tintas: 4x4, Páginas totales: 90, Tamaño: 57 x 87 mm, Papel: propalcote mate de 290 grs., Acabados: puntas redondeadas, Cantidad: 450 ejemplares</td></tr>
+          <tr><td colspan="2">Recorridos 01. Afiche plegado</td><td colspan="2">Tintas: 4x4, Tamaño: 35 x 50 cm, Papel: Earth Pact de 120 grs., Cantidad: 450 ejemplares, Acabados: doblado 8 cuerpos</td></tr>
+          <tr><td colspan="2">Recorridos 02. Afiche plegado</td><td colspan="2">Tintas: 4x4, Tamaño: 35 x 50 cm, Papel: Earth Pact de 120 grs., Cantidad: 450 ejemplares, Acabados: doblado 8 cuerpos</td></tr>
+          <tr><td colspan="2">Manifiesto. Afiche plegado</td><td colspan="2">Tintas: 4x0, Tamaño: 35 x 50 cm, Papel: Earth Pact de 120 grs., Cantidad: 450 ejemplares, Acabados: doblado 8 cuerpos</td></tr>
+          <tr><td colspan="4">Editorial 2021–2022</td></tr>
+          <tr><td colspan="2">Libro Desahogo</td><td colspan="2">Número de edición: 1, Número de páginas: 112, Tiraje: 200, Tamaño: 12.7x20 cm, Acabados: Tapa blanda, Soporte: Impreso, Idioma: Español, Ciudad: Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 24 -->
+<div id="popup24" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup24')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps24.jpg" alt="iaps24">
+        <img src="assets/ibps24.jpg" alt="ibps24">
+        <img src="assets/icps24.jpg" alt="icps24">
+      </div>
+      <div class="popup-texto">
+        <h1>Comunidad de Prácticas Pedagógicas.</h1>
+        <h2>Que La Verdad Sea Dicha</h2>
+        <p>El resultado de este trabajo es la compilación y sistematización de seis Herramientas Pedagógicas creadas en el seno de la Comunidad de Prácticas Pedagógicas por la Verdad, la Memoria y la No Repetición: "Que la verdad sea dicha", parte integrante de la estrategia de pedagogía de la CEV. Este trabajo se centró en compilar dichas herramientas para ser presentadas e incluidas en la WEB del Informe Final.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliado</td><td colspan="3">Comisión para el Esclarecimiento de la Verdad, la Convivencia y la No repetición (CEV)</td></tr>
+          <tr><td>URL</td><td colspan="3"><a href="https://www.comisiondelaverdad.co/pedagogia#qlvsdicha" target="_blank">Que La Verdad Sea Dicha</a></td></tr>
+          <tr><td>Fecha</td><td colspan="3">2022</td></tr>
+          <tr><td>Lenguajes</td><td colspan="3">HTML, CSS, JavaScript</td></tr>
+          <tr><td colspan="2">Diseño, usabilidad y accesibilidad, Carácter gráfico, navegabilidad, experiencia de usuario y diseño adaptable a diferentes dispositivos</td><td colspan="2">Publicaciones La Sorda</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 25 -->
+<div id="popup25" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup25')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps25.jpg" alt="iaps25">
+        <img src="assets/ibps25.jpg" alt="ibps25">
+        <img src="assets/icps25.jpg" alt="icps25">
+      </div>
+      <div class="popup-texto">
+        <h1>Historias de verdad, palabra, vida y memoria de las mujeres indígenas de Colombia</h1>
+        <p>"Historias de verdad: palabra, vida y memoria de las mujeres indígenas de Colombia" es un libro que recoge las experiencias narradas en primera persona por más de 1.000 mujeres indígenas de diferentes regiones y etnias, víctimas de graves violaciones de derechos humanos, reconstruyendo sus memorias rotas y visiones de la violencia.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">González Henao, Reina Raquel</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Barranquilla, Colombia. 1983. Cineasta, artista escénica, escritora y antropóloga caribeña. Fundadora del laboratorio de creación Tiempo de luciérnagas y asesora de procesos de escritura, formación audiovisual e investigación. Su obra cinematográfica consta de documentales y trabajos experimentales, entre ellos ‘Sabedoras de muchas lunas’ (2013), ‘Volver’ (2018) y ‘Volver al origen’ (2020). Es autora de materiales pedagógicos y de investigación sobre memoria histórica, entre los que se destaca ‘Así cuentan la historia: mujeres y memoria emberá’ (2013). Se ha desempeñado como intérprete y productora de teatro en diferentes compañías. En la actualidad trabaja en su proyecto ‘El viaje de lo sensible’, que combina cine, música y literatura del caribe continental e insular.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-628-95206-0-6</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2022</td><td>Páginas</td><td>40</td></tr>
+          <tr><td>Tiraje</td><td>3000 ejemplares</td><td>Tamaño</td><td>22.5x23cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 26 -->
+<div id="popup26" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup26')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps26.jpg" alt="iaps26">
+        <img src="assets/ibps26.jpg" alt="ibps26">
+        <img src="assets/icps26.jpg" alt="icps26">
+      </div>
+      <div class="popup-texto">
+        <h1>Carmen y Jacinto.</h1>
+        <h2>La historia del Silencio</h2>
+        <p>Novela gráfica</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Narváez, Jhon; Ramos, Ramsés; Arias, Francisco</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3"></td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-9-6</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2022</td><td>Páginas</td><td>16</td></tr>
+          <tr><td>Tiraje</td><td>1.500 ejemplares</td><td>Tamaño</td><td>21x27cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 27 -->
+<div id="popup27" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup27')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps27.jpg" alt="iaps27">
+        <img src="assets/ibps27.jpg" alt="ibps27">
+        <img src="assets/icps27.jpg" alt="icps27">
+      </div>
+      <div class="popup-texto">
+        <h1>Variaciones del cuerpo en cuatro tiempos</h1>
+        <h2>Escrituras de la imagen</h2>
+        <p>Este libro explora las múltiples formas en que el cuerpo se manifiesta y se transforma a través de cuatro tiempos, abordando temas de arte, feminismo y escritura de la imagen.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Cynthia Ortega Salgado</td></tr>
+          <tr><td>Perfil del autor</td><td colspan="3">Maestra en Artes por la Universidad de Falmouth, Inglaterra, y Doctora en Estudios Latinoamericanos por la UNAM, con mención honorífica. Ha sido investigadora invitada en instituciones de Uruguay, Alemania, Canadá y España. Entre sus libros destacan: Variaciones del cuerpo en cuatro tiempos (La Sorda, 2022) y Transculturación en las imágenes del exilio uruguayo (UAEM, 2019). Entre sus publicaciones recientes se encuentran: Palabra inventada, desdoblada y oscilante (Corpografías, 2024) y Comparecen los cuerpos (UNAM, 2021). Es miembro del Sistema Nacional de Investigadores (SNI) nivel 1 y cuenta con perfil PRODEP. Sus líneas de investigación incluyen Escrituras de la Imagen, Corpografías, Arte y Feminismo, entre otras. Actualmente, es editora de la revista indexada El Ornitorrinco Tachado.</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-958-56239-8-9</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2022</td><td>Páginas</td><td>48</td></tr>
+          <tr><td>Tiraje</td><td>100 ejemplares</td><td>Tamaño</td><td>12.5x20cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa blanda</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 28 -->
+<div id="popup28" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup28')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps28.jpg" alt="iaps28">
+        <img src="assets/ibps28.jpg" alt="ibps28">
+        <img src="assets/icps28.jpg" alt="icps28">
+      </div>
+      <div class="popup-texto">
+        <h1>Que La Verdad Sea Dicha.</h1>
+        <h2>Colección de herramientas pedagógicas</h2>
+        <p>De la mano de la Comisión de la Verdad y en concordancia con su mandato, las herramientas acá presentadas han sido producto de un trabajo colaborativo entre docentes y personas que trabajan con comunidades educativas en diversas regiones del país. Este ejercicio colaborativo se realizó en el marco de los Laboratorios de Cocreación impulsados por la estrategia de Pedagogía de la Comisión y sus aliados, denominados “Declarándole la Verdad a la guerra y al olvido”. Que La Verdad Sea Dicha recoge las herramientas allí cocreadas por las distintas comunidades educativas y culturales presentando sus principios, características y posibilidades de adaptación y aplicación.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Comunidad de Prácticas Pedagógicas por la Verdad, la Memoria y la No Repetición</td></tr>
+          <tr><td>Editor</td><td colspan="3">Fundación Publicaciones La Sorda</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-628-95206-1-3</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2023</td><td>Páginas</td><td>158</td></tr>
+          <tr><td>Tiraje</td><td>300 ejemplares</td><td>Tamaño</td><td>21.5x27.9cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa dura o cartoné</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 29 -->
+<div id="popup29" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup29')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps29.jpg" alt="iaps29">
+        <img src="assets/ibps29.jpg" alt="ibps29">
+        <img src="assets/icps29.jpg" alt="icps29">
+      </div>
+      <div class="popup-texto">
+        <h1>Des-hechos fragmentos.</h1>
+        <h2>Historias de cuando se olvidó que del cemento también nacen flores</h2>
+        <p>Estas historias no son relatos cerrados ni simples narrativas de vidas al margen; son fragmentos en flujo, rizomas de experiencias ficcionales que brotan y se bifurcan, nutriéndose de múltiples realidades que no pueden contenerse en la linealidad de un solo relato. Cada historia aquí traza un mapa de afectos y devenires donde las experiencias del desplazamiento, la violencia y el des-arraigo no son meras condiciones de la existencia, sino procesos que transforman y reinventan los cuerpos y los sentidos del ser, donde el yo se vuelve territorio de tensión y de conexión con un mundo que no es el suyo, pero que debe habitar. Los personajes que aquí emergen —Leidy, José, Clara, Margarita, Ana y Lucía— son como multiplicidades: nodos de afecto y resistencia, cuyas vidas no se limitan a las experiencias particulares de sus propios cuerpos, sino que se enraízan en una red de afectos y en una historia compartida de supervivencia y desterritorialización.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Autor</td><td colspan="3">Lara Bernal, Wilson; Urueña Jaramillo, Carlos Alberto; Beltrán Fletscher, Merceditas; Mejía Sabogal, Diana Constanza; Giraldo Gómez, Lizeth Johana; Calderón Cañón, Isabel Adriana</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+          <tr><td>ISBN</td><td>978-628-95206-4-4</td><td>Edición</td><td>1</td></tr>
+          <tr><td>Publicado</td><td>2024</td><td>Páginas</td><td>72</td></tr>
+          <tr><td>Tamaño</td><td>21.5x27.9cm</td><td>Formato</td><td>PDF</td></tr>
+          <tr><td>Soporte</td><td>Digital</td><td>Tamaño archivo</td><td>2 Mb</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 30 -->
+<div id="popup30" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup30')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps30.jpg" alt="iaps30">
+        <img src="assets/ibps30.jpg" alt="ibps30">
+        <img src="assets/icps30.jpg" alt="icps30">
+      </div>
+      <div class="popup-texto">
+        <h1>Que La Verdad Siga Siendo Dicha. </h1>
+        <h2>Prácticas pedagógicas en transformación</h2>
+        <p>En 2023, la Comunidad de Prácticas Pedagógicas y la Fundación Publicaciones La Sorda colaboran nuevamente para crear una exposición, y obtienen una beca en la Convocatoria para proyectos de formación artística y cultural del Ministerio de las Culturas, las Artes y los Saberes. Esta exposición colectiva y colaborativa representa un esfuerzo colectivo y un llamado a la acción para asegurar que la verdad y la memoria sigan vivas, abriendo el camino hacia un nuevo comienzo. Reafirma así el compromiso de la Comunidad de Prácticas Pedagógicas de ser guardiana del Legado de la Comisión de la Verdad, desarrollando herramientas pedagógicas que no solo preservan la memoria, sino que también promueven una cultura de paz.</p>
+        <p>En este espacio, presentamos dos prácticas pedagógicas implementadas en municipios del país, en las que el arte, la educación y la historia se entrelazan para sanar heridas y construir un futuro más justo. En Támesis, Antioquia, Memorarte permitió a estudiantes reflexionar sobre los impactos del conflicto armado y la resolución no violenta de conflictos. En Barranquilla, Atlántico, Los Reporteritos de la Memoria recuperaron las voces del Barrio Abajo, preservando la identidad y resistencia cultural afrodescendiente.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliados</td><td colspan="3">Comunidad de Prácticas Pedagógicas por la Verdad, la Memoria y la No Repetición (2021), Grupo de mediación de la exposición Hay Futuro si hay Verdad, de la Colombia herida a la Colombia Posible, Centro Nacional de Memoria Histórica</td></tr>
+          <tr><td>Fecha</td><td colspan="3">22 de noviembre a 4 de diciembre de 2024</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Centro Colombo Americano, sede centro. Bogotá</td></tr>
+          <tr><td>Tipo de exposición</td><td>Itinerante</td><td>Área</td><td>84 m2</td></tr>
+          <tr><td>Gestión</td><td colspan="3">Fundación Publicaciones La Sorda</td></tr>
+          <tr><td>Curaduría</td><td colspan="3">Diana Lorena Jiménez Gómez, Alfredo Enrique González Barrios, Adriana Pineda Estrada, Luisa Fernanda Villegas Gutiérrez, Maria Camila Peña Echeverry, Alberto Carlos Romero Moscoso, Carlos Alberto González Buitrago</td></tr>
+          <tr><td>Mediación</td><td colspan="3">Tatiana Soriano Moreno</td></tr>
+          <tr><td>Museografía</td><td colspan="3">Juan Mojica Arias, Andrea Soler</td></tr>
+          <tr><td>Producción</td><td colspan="3">Mariela Silva Romina, ATA RAYA Estudio</td></tr>
+          <tr><td>QLVSD 2ed</td><td colspan="3">Que La Verdad Sea Dicha. Colección de herramientas pedagógicas</td></tr>
+          <tr><td>Autores</td><td colspan="3">Comunidad de Prácticas Pedagógicas por la Verdad, la Memoria y la No Repetición</td></tr>
+          <tr><td>Editor</td><td colspan="3">Fundación Publicaciones La Sorda</td></tr>
+          <tr><td>ISBN</td><td>978-628-95206-3-7</td><td>Edición</td><td>2</td></tr>
+          <tr><td>Publicado</td><td>2024</td><td>Páginas</td><td>160</td></tr>
+          <tr><td>Tiraje</td><td>300 ejemplares</td><td>Tamaño</td><td>21x27cm</td></tr>
+          <tr><td>Acabados</td><td>Tapa dura</td><td>Soporte</td><td>Impreso</td></tr>
+          <tr><td>Idioma</td><td>Español</td><td>Ciudad</td><td>Bogotá</td></tr>
+          <tr><td>Fe de erratas</td><td colspan="3">Hasta el momento no se han encontrado erratas en este libro.</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup Proyecto 31 -->
+<div id="popup31" class="popup">
+  <div class="popup-content" aria-modal="true" tabindex="-1">
+    <span class="cerrar" onclick="cerrarPopup('popup31')">
+      <span class="material-symbols-outlined">close</span>
+    </span>
+    <div class="popup-grid">
+      <div class="popup-galeria">
+        <img src="assets/iaps31.jpg" alt="iaps31">
+        <img src="assets/ibps31.jpg" alt="ibps31">
+        <img src="assets/icps31.jpg" alt="icps31">
+      </div>
+      <div class="popup-texto">
+        <h1>Un viaje de paz:</h1>
+        <h2>historias de resistencia LGBT</h2>
+        <p>Un Viaje de Paz es un repositorio digital que recopila testimonios en distintos formatos sobre experiencias de personas LGBT víctimas y sobrevivientes al conflicto armado colombiano alrededor de todo el país. Estas historias son el resultado de los años de trabajo en Colombia Diversa por un país pacífico y libre de discriminación. En 2024, cuando se cumple el vigésimo cumpleaños de Colombia Diversa, recordamos a todas las personas LGBTIQ+ que vivieron, defendieron y lucharon por su diferencia en medio de la guerra.</p>
+        <table>
+          <col style="width:18%"><col style="width:32%"><col style="width:18%"><col style="width:32%">
+          <tr><td>Aliado</td><td colspan="3">Fundación Colombia Diversa</td></tr>
+          <tr><td>Fecha</td><td colspan="3">Junio 27 a septiembre 07 de 2024</td></tr>
+          <tr><td>Lugar</td><td colspan="3">Centro Colombo Americano, sede centro. Bogotá</td></tr>
+          <tr><td>Tipo de exposición</td><td>Temporal</td><td>Área</td><td>84 m2</td></tr>
+          <tr><td>Curaduría</td><td colspan="3">Marcela Sánchez, Cindy Bautista, María Susana Peralta y Jhonny Jiménez</td></tr>
+          <tr><td colspan="2">Museografía, producción y diseño editorial</td><td colspan="2">Publicaciones La Sorda</td></tr>
+          <tr><td>Folleto</td><td colspan="3">Media carta de 8 páginas impreso a 1 tinta</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Sección Destacados -->
+  <section class="destacados">
+    <div class="caja">
+      <h3>La Sorda habla</h3>
+      <p>con las manos, se expresa mediante</p>
+      <table class="table1">
+        <col style="width:20%">
+        <col style="width:80%">
+        <tr>
+          <td><span class="material-symbols-outlined">menu_book</span></td>
+          <td><p class="teta1"><b>Proyectos editoriales</b> La Sorda suelta libros para que viajen ligeros, de mano en mano, sin mapas ni prisas.</p></td>
+        </tr>
+        <tr>
+          <td><span class="material-symbols-outlined">web_traffic</span></td>
+          <td><p class="teta1"><b>Proyectos web</b> La Sorda abre caminos digitales: páginas para perderse, encontrarse y compartir.</p></td>
+        </tr>
+        <tr>
+          <td><span class="material-symbols-outlined">deployed_code</span></td>
+          <td><p class="teta1"><b>Proyectos expositivos</b> La Sorda levanta refugios temporales: exposiciones para mirar, habitar y recordar.</p></td>
+        </tr>
+      </table>
+    </div>
+    <div class="caja">
+      <h3>La Sorda no va sola</h3>
+      <p>Anda en buena compañía. Ha trenzado caminos con editoras, artistas, tejedoras, curadoras, colectivos, organizaciones, espacios e instituciones que entienden <b>la creación como un gesto colectivo</b>, que creen en lo común. Juntas hemos hecho libros que viajan, sitios web que respiran y exposiciones que cobijan. Cada encuentro ha sido una forma de <b>escuchar con las manos</b> y hablar con el hacer. Algunas de estas aliadas son: Mapa teatro, Comisión de la Verdad, Comunidad de prácticas pedagogicas, Fundación Colombia Diversa, Facultad de Artes, Universidad Nacional de Colombia, Sede Bogotá.</p>
+    </div>
+    <div class="caja">
+      <h3>Convocatoria</h3>
+      <p>Se les quiere invitar a que se hagan cargo. Pueden decir lo que tienen que decir. Mejor decirlo antes de olvidarlo. <b>Será bienvenido todo tipo de material.</b> Para mayor información, dirigirse a las condiciones de participación. Háganos llegar su propuesta con las siguientes características:</p>
+      <ul>
+        <li>Datos del autor(es) y fecha de elaboración.</li>
+        <li>Título y descripción general de la propuesta.</li>
+        <li>Contenido detallado de la propuesta.</li>
+      </ul>
+      <div class="acordeon">
+        <div class="acordeon-item">
+          <input type="checkbox" id="item1">
+          <label for="item1">Términos y condiciones</label>
+          <div class="contenido">
+            <p><b>1. Naturaleza del proyecto</b> La Sorda (NIT 901.034.693-9) es un proyecto independiente, iniciado en Bogotá en 2014. <b>2. Derechos de autor</b> Los derechos de los contenidos publicados pertenecen a sus autores. 2.1. Todo el material publicado está bajo licencia Creative Commons: Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0). <b>3. Uso de contenidos</b> Los textos pueden ser utilizados libremente con fines educativos, académicos y culturales, siempre que se cite la fuente y no se usen con fines comerciales. <b>4. Uso de la plataforma</b> Está prohibido modificar, copiar o reproducir los contenidos del sitio con fines de lucro. <b>5. Permanencia de contenidos</b> El material (textos, imágenes, datos del autor) podrá retirarse o modificarse por solicitud, salvo que estén vinculados a un deber legal o contractual. <b>6. Datos de los autores</b> No compartimos, ni utilizamos con fines comerciales los datos aportados por los autores como títulos, índices, teléfonos, direcciones o fotos. <b>7. Responsabilidad de uso</b> La Sorda no se responsabiliza por el uso indebido del sitio ni por daños derivados de acciones de terceros. <b>8. Distribución</b> Fomentamos el acceso libre y solidario a los contenidos. Los libros se pueden descargar, regalar o compartir.<b>Servicio mantenido por La Sorda y alojado en GitHub. Contáctanos para comentarios o preguntas.</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="caja">
+      <h3>Contacto</h3>
+      <p>Existen muchas formas de colaborar con La Sorda. Puedes presentar material por medio de la convocatoria permanente o proponiendo actividades, discusiones, dándonos ideas, opiniones o también puedes apoyarnos donando tiempo y/o dinero para la impresión de cada publicación.</p>
+      <div class="formulario">
+        <form action="https://formsubmit.co/info@publicacioneslasorda.org" method="POST">
+          <!--
+          <input type="text" name="name" placeholder="Nombre" required>
+          <input type="email" name="email" placeholder="Correo electrónico" required>
+          -->
+          <textarea name="message" rows="3" placeholder="Mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p><b>info@publicacioneslasorda.org</b><br>Fundación Publicaciones La Sorda &#10072; Bogotá, Colombia &#10072; 2025</p>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Popup functionality
+    function abrirPopup(id) {
+      document.getElementById(id).style.display = 'block';
+    }
+    function cerrarPopup(id) {
+      document.getElementById(id).style.display = 'none';
+    }
+    window.onclick = function(event) {
+      if (event.target.classList.contains('popup')) {
+        event.target.style.display = "none";
+      }
+    }
+  </script>
+</body>
 </html>
